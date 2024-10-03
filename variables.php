@@ -22,7 +22,7 @@ class Student {
 $isstudent = true;
 
 if ($isstudent) {
-    $datetime1 = date_create('2007-02-08');
+    $datetime1 = date_create('2006-02-08');
     $datetime2 = date_create('2024-10-03');
     $interval = date_diff($datetime1, $datetime2);
     $taun = $interval->format('%y years');
